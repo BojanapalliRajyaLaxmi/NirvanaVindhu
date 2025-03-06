@@ -1,5 +1,5 @@
 import React from "react";
-import "../restuarant/ResSlide.css";
+import "../restuarant/Resslide.css";
 
 const Breadcrumb = () => {
   return (
