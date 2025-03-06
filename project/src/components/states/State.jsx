@@ -78,7 +78,7 @@ const State = () => {
     }
 
     try {
-        const response = await fetch("http://localhost:3002/wishlist", {
+        const response = await fetch("https://backend-2-h6m8.onrender.com/wishlist", {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
@@ -105,7 +105,7 @@ const toggleWishlist = async (dish) => {
   }
 
   try {
-      const response = await fetch("http://localhost:3002/wishlist", {
+      const response = await fetch("https://backend-2-h6m8.onrender.com/wishlist", {
           method: "POST",
           headers: {
               "Content-Type": "application/json",
@@ -130,7 +130,7 @@ const fetchCart = async () => {
   }
 
   try {
-      const response = await fetch("http://localhost:3002/cart", {
+      const response = await fetch("https://backend-2-h6m8.onrender.com/cart", {
           headers: {
               "Content-Type": "application/json",
               Authorization: `Bearer ${token}`,
@@ -157,7 +157,7 @@ const addToCart = async (dish) => {
   }
 
   try {
-      await fetch("http://localhost:3002/cart", {
+      await fetch("https://backend-2-h6m8.onrender.com/cart", {
           method: "POST",
           headers: {
               "Content-Type": "application/json",
@@ -179,7 +179,7 @@ const addToCart = async (dish) => {
     }
 
     try {
-        const response = await fetch("http://localhost:3002/cart", {
+        const response = await fetch("https://backend-2-h6m8.onrender.com/cart", {
             method: "DELETE",
             headers: {
                 "Content-Type": "application/json",
