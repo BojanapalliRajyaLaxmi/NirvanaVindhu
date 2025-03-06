@@ -81,7 +81,7 @@ const Wishlist = () => {
     if (!token) return;
 
     try {
-      const response = await fetch("http://localhost:3002/wishlist", {
+      const response = await fetch("https://backend-2-h6m8.onrender.com/wishlist", {
         headers: { Authorization: `Bearer ${token}` },
       });
 
