@@ -18,7 +18,7 @@ const WishlistRestaurants = () => {
 
     const fetchLikedRestaurants = async (token) => {
         try {
-            const response = await fetch("http://localhost:3002/restaurant", {
+            const response = await fetch("https://backend-2-h6m8.onrender.com/restaurant", {
                 method: "GET",
                 headers: {
                     "Authorization": `Bearer ${token}`,
