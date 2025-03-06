@@ -13,7 +13,7 @@ const Cart = () => {
         const token = localStorage.getItem("tokenlogin");
         if (!token) return;
 
-        const response = await fetch("http://localhost:3002/cart", {
+        const response = await fetch("https://backend-2-h6m8.onrender.com/cart", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
