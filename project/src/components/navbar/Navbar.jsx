@@ -54,7 +54,7 @@ const Navbar = () => {
 
   return (
     <nav id="nav" className={`navbar ${darkMode ? "dark" : "light"}`}>
-      <img src="/logoVindhu.png" alt="Logo" width={100} height={100} />
+      <img src="/public/logoVindhu.png" alt="Logo" width={100} height={100} />
       <ul className="nav-links">
         <div className="nav-links-center">
           <li className={location.pathname === "/" ? "active" : ""}>
