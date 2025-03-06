@@ -1,0 +1,91 @@
+.container {
+    /* max-width: 1100px; */
+    margin: auto;
+    padding: 40px 20px;
+  }
+  
+  .row.faq-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .section-head {
+    margin-bottom: 20px;
+  }
+  
+  .dt-sc-sub-heading {
+    color: #ff6600;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  .dt-sc-main-heading {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .dt-sc-column.two-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  
+  .dt-sc-faqs {
+    flex: 1;
+    min-width: 45%;
+  }
+  
+  .dt-sc-faqs_image {
+    flex: 1;
+    min-width: 45%;
+  }
+  
+  .dt-sc-faqs_image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  
+  .dt-sc-accordion-container {
+    width: 100%;
+  }
+  
+  .faq-item {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .dt-sc-accordion-btn {
+    background: #f8f8f8;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.3s;
+  }
+  
+  .dt-sc-accordion-btn:hover {
+    background: #eaeaea;
+  }
+  
+  .dt-sc-accordion-btn.active {
+    background: #ff6600;
+    color: #fff;
+  }
+  
+  .dt-sc-accordion-content {
+    display: none;
+    padding: 10px 15px;
+    background: #fff;
+  }
+  
+  .dt-sc-accordion-content.open {
+    display: block;
+  }
+  

@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.restaurant-wrapper h1 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 100px;
+  }
+  
+  .restaurant-wrapper .restaurant-item {
+    background: white;
+    padding: 15px;
+  }
+  
+  .restaurant-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; 
+    justify-content: space-around; 
+    list-style-type: none;
+    padding: 0;
+}
+.restaurant-item {
+    width: 250px; 
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.restaurant-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.restaurant-item {
+    background: #ffffff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+.restaurant-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.restaurant-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+
+.restaurant-cuisine {
+    font-size: 1rem;
+    color: #555;
+    font-style: italic;
+}
+
+
+.restaurant-address {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+
+.restaurant-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.wishlist-icon, 
+.view-more-icon, 
+.add-to-cart-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.wishlist-icon:hover {
+    color: red;
+    transform: scale(1.2);
+}
+
+.view-more-icon:hover {
+    color: blue;
+    transform: scale(1.2);
+}
+
+.add-to-cart-icon:hover {
+    color: green;
+    transform: scale(1.2);
+}
+
+
+.restaurant-item {
+    width: 250px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.restaurant-item:hover {
+    transform: scale(1.02);
+}
+
+
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  .restaurant-item {
+    background: white !important;
+  }
+  
+  
+  h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #555;
+  }
+
+  .location, .user-address {
+    font-size: 16px;
+    position: absolute;
+    top:150px;
+    z-index: 1000;
+    color: #ede6e6;
+    margin-bottom: 10px;
+  }
+
+  .error {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .restaurant-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .restaurant-image-container {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.restaurant-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+
+.restaurant-icons {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 10px;
+    opacity: 0; 
+    transition: opacity 0.3s ease-in-out;
+}
+
+.restaurant-icons span {
+    font-size: 1.8rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.restaurant-item:hover .restaurant-icons {
+    opacity: 1;
+}
+.wishlist-icon:hover { color: red; transform: scale(1.2); }
+.view-more-icon:hover { color: blue; transform: scale(1.2); }
+.add-to-cart-icon:hover { color: green; transform: scale(1.2); }
+.map-icon:hover { color: orange; transform: scale(1.2); }
+
+  .restaurant-item {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  .restaurant-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  
+  .restaurant-item:hover {
+    transform: scale(1.02);
+  }
+  
+  .restaurant-item strong {
+    font-size: 20px;
+    color: #222;
+  }
+  
+  .restaurant-item br {
+    margin-bottom: 5px;
+  }
+  /* Dropdown Container */
+  .distance-dropdown {
+    width: 200px;
+    margin: 20px auto;
+    position: absolute;
+    top: 120px;
+    right: 10px;
+    z-index: 1000;
+    text-align: center;
+  }
+
+  
+  .custom-dropdown {
+    width: 100%;
+    padding: 10px;
+    background: #2e2e2e;
+    color: #EEE;
+    border: 2px solid #888;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .custom-dropdown:hover {
+    border-color: #5790E6;
+  }
+  
+  .custom-dropdown option {
+    background: #2e2e2e;
+    color: #EEE;
+  }
+  
+  .custom-dropdown:focus {
+    outline: none;
+    border-color: #8773EB;
+    box-shadow: 0 0 5px #8773EB;
+  }
+  .wishlist-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: transform 0.2s ease-in-out;
+    /* position: absolute; */
+    /* top: 10px; */
+    /* right: 10px; */
+    z-index: 999;
+  }
+  
+
+.wishlist-icon img {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+
+.wishlist-icon:hover {
+  transform: scale(1.1);
+  background-color: rgba(255, 0, 0, 0.2);
+  cursor: pointer;
+}

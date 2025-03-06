@@ -1,0 +1,56 @@
+.breadcrumb-container {
+  position: relative;
+  background: url("https://orgass.myshopify.com/cdn/shop/files/bread.png?v=1641800921") center no-repeat;
+  background-size:auto;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  font-family: Arial, sans-serif;
+  z-index: 1;
+}
+
+.breadcrumb-container::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.restaurant-wrapper h1 {
+  font-size: 44px;
+color: wheat;
+  margin-top: 100px;
+}
+
+.breadcrumb-title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.breadcrumb-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 38px;
+}
+
+.breadcrumb-link:hover {
+  text-decoration: underline;
+}
+
+/* .breadcrumb-sep {
+  margin: 0 5px;
+}
+
+.breadcrumb-current {
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 0.8;
+} */

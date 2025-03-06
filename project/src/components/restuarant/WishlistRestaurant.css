@@ -1,0 +1,70 @@
+.wishlistcontainer {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.wishlist-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.no-restaurants {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Use flexbox for restaurant list */
+.restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items */
+    gap: 15px; /* Space between items */
+    padding: 0;
+}
+
+/* Style for each restaurant item */
+.restaurant-item {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    flex: 1 1 calc(33.333% - 20px); /* Adjust for responsiveness */
+    max-width: 250px;
+    min-width: 200px;
+    text-align: left;
+}
+
+.restaurant-item:hover {
+    transform: scale(1.02);
+}
+
+.restaurant-item h3 {
+    margin: 0;
+    font-size: 22px;
+    color: #007bff;
+}
+
+.restaurant-item p {
+    margin: 5px 0;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .restaurant-item {
+        flex: 1 1 calc(50% - 20px); /* Two columns on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .restaurant-item {
+        flex: 1 1 100%; /* Full width on very small screens */
+    }
+}

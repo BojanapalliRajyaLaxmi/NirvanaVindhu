@@ -1,0 +1,86 @@
+.home-section {
+    position: relative;
+    background-image: url("https://orgass.myshopify.com/cdn/shop/files/home-background-image-1.png?v=1641280308");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-fluid {
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+  .grid-banner-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dt-sc-grid-banner-image img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+  }
+  
+  .dt-sc-grid-banner-content {
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  .dt-sc-sub-title {
+    font-size: 1.5rem;
+    color: #ff6600;
+    margin-bottom: 10px;
+  }
+  
+  .dt-sc-main-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .dt-sc-description {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .dt-sc-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .dt-sc-btn:hover {
+    background-color: #cc5500;
+  }
+  
+  @media (max-width: 768px) {
+    .dt-sc-grid-banner-page {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .dt-sc-grid-banner-content {
+      max-width: 100%;
+    }
+  
+    .dt-sc-grid-banner-image img {
+      max-width: 100%;
+    }
+  }
+  

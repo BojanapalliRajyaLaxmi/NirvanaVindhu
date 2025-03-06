@@ -1,0 +1,260 @@
+/* General Styles */
+.App {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin: 80px;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Content Wrapper */
+.content-container {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+/* General Styles */
+.App {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  display: flex;
+}
+
+.sidebar {
+  width: 250px; /* Adjust width */
+  height: 100vh; /* Full viewport height */
+  position: fixed; /* Fix sidebar */
+  top: 0;
+  left: 0;
+  padding: 20px;
+  margin-top: 100px;
+  background-color: #fff;
+  border-right: 2px solid #ddd;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: auto;
+}
+
+/* Filter Container */
+.filter-container {
+  text-align: left;
+}
+
+.food-filter {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  background-color: white;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.food-filter:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* State Container */
+.states-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.state-box {
+  width: 100%;
+  background-color: #fff;
+  border: 2px solid #007bff;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-align: left;
+}
+
+
+.state-box:hover,
+.state-box.active {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+/* Main Content - Push to Right */
+.state-info {
+  flex-grow: 1;
+  margin-left: 270px; /* Push content to the right */
+  padding: 20px;
+}
+
+/* Dishes Section */
+.dishes-container {
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+/* Dish List */
+.dish-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Dish Card */
+.dish-card {
+  width: 280px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.dish-card:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+/* Filter Container */
+.filter-container {
+  text-align: left;
+  width: 100%;
+}
+
+.food-filter {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  margin-top: 10px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  background-color: white;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.food-filter:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* States Container */
+.states-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.state-box {
+  width: 100%;
+  background-color: #fff;
+  border: 2px solid #007bff;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-align: left;
+}
+
+.state-box:hover,
+.state-box.active {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+/* Main Content (Dishes) */
+.state-info {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+/* Dishes Section */
+.dishes-container {
+  margin-top: 20px;
+}
+
+/* Dish List */
+.dish-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Dish Card */
+.dish-card {
+  width: 280px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.dish-card:hover {
+  transform: scale(1.05);
+}
+
+.dish-card__background {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.dish-card__content {
+  padding: 15px;
+  text-align: left;
+}
+
+.dish-card__title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.dish-card__content p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+/* Icons Section */
+.dish-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+
+.icon {
+  transition: transform 0.2s ease;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+/* Wishlist & Cart Icons */
+.wishlist-icon {
+  filter: hue-rotate(330deg);
+}
+
+.cart-icon {
+  filter: hue-rotate(200deg);
+}

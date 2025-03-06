@@ -1,0 +1,90 @@
+/* Footer Styles */
+.footer {
+  background-image: url("https://orgass.myshopify.com/cdn/shop/files/bg-foot.png?v=1641959857");
+  background-size: contain;
+  background-position: center;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* Container */
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Footer Columns */
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-icons img {
+  width: 25px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+/* Footer Text */
+.footer-text {
+  font-size: 14px;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+
+.footer-subtext {
+  font-size: 12px;
+  max-width: 300px;
+  color: white;
+  margin: 0 auto;
+}
+div>p{
+  color: white;
+}
+.footer-logo {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+/* Footer Links */
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin: 5px 0;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-links a:hover {
+  color: #f4a261;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
