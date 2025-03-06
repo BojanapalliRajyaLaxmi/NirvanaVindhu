@@ -19,7 +19,7 @@ const Register = () => {
             return;
         }
         try {
-            await axios.post("http://localhost:3002/register", formData);
+            await axios.post("https://backend-2-h6m8.onrender.com/register", formData);
             toast.success("Registration successful!", { position: "top-center" });
             setTimeout(() => navigate("/login"), 2000);
         } catch (error) {
