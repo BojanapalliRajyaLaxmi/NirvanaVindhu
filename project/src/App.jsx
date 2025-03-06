@@ -6,7 +6,7 @@ import Restaurant from "./components/restuarant/Restuarant";
 import State from "./components/states/State";
 import Feed from "./components/feed/Feed";
 import Profile from "./components/profile/Profile";
-import Wishlist from "./components/wishlist/Wishlight";
+import Wishlist from "./components/wishlist/Wishlisht";
 import Cart from "./components/cart/Cart";
 import WishlistRestaurants from "./components/restuarant/WishlistRestaurants";
 import Register from "./components/Account/Register";
